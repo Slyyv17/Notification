@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notification Challenge </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="show-notification-btn" count="3" onclick="showNotificationBox()"> Show Notification Box </button>
+    <!-- Notification container -->
+    <div id="notification-container">
+        <button type="reset" id="clear-relations" onclick="clearRelations()"> Mark as read </button>
+        <div class="notification-box one">
+            <img src="images/avatar-mark-webber.webp">
+
+            <div class="messages">
+                <strong>Mark webber</strong> reacted to your post <strong>My First challenge today</strong> 
+            </div>
+        </div>
+
+        <div class="notification-box two">
+            <img src="images/avatar-angela-gray.webp">
+
+            <div class="messages">
+                <strong>Angela Gray</strong> reacted to your post <strong>My First challenge today</strong>
+            </div>
+        </div>
+
+        <div class="notification-box three">
+            <img src="images/avatar-anna-kim.webp">
+
+            <div class="messages">
+                <strong> Anna Kim</strong> followed you
+            </div>
+        </div>
+
+        <div class="notification-box four">
+            <img src="images/avatar-jacob-thompson.webp">
+
+            <div class="messages">
+                <strong> Jacob Thompson</strong> reacted to your post <strong>Today's champions league match</strong>
+            </div>
+        </div>
+
+        <div class="notification-box five">
+            <img src="images/avatar-kimberly-smith.webp">
+
+            <div class="messages">
+                <strong> Kimberly Smith </strong> reacted to your post <strong>Today's champions league match</strong>
+            </div>
+        </div>
+
+        <div class="notification-box six">
+            <img src="images/avatar-nathan-peterson.webp">
+
+            <div class="messages">
+                <strong> Nathan Peterson</strong> reacted to your post <strong>Today's champions league match</strong>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
