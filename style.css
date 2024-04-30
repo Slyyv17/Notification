@@ -114,6 +114,16 @@ img {
         width: 100%;
         height: 80vh;
     }
+
+    
+    .notification-box {
+        width: 100%;
+        height: 9vh;
+    }
+
+    .messages {
+        font-size: 0.7rem;
+    }
 }
 
 /* Tablet devices */
